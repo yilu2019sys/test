@@ -9,7 +9,7 @@ def age_of_tree(ab_dates):
     date = datetime.strptime(date, '%Y%m%d').year
 
     age = year-date
-    print("Finish")
+
     return age
 
 
