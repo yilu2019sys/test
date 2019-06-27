@@ -4,6 +4,7 @@ import re
 import pprint
 import json, copy
 import pandas as pd
+import numpy as np
 
 def update_excel_pd(xls_path, statlist: dict, *, crop_codes=[1]):
     """
